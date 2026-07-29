@@ -1,0 +1,22 @@
+Known Lab Issue
+
+While completing the Google Cybersecurity SQL lab *"Investigate logins by event ID"*, I encountered a validation issue.
+
+### Expected solution
+
+```sql
+SELECT event_id, username, login_date
+FROM log_in_attempts
+WHERE event_id BETWEEN 100 AND 150;
+```
+
+### What happened
+
+- Query returned the correct results.
+- All quiz answers matched the expected output.
+- The official Exemplar solution was identical.
+- The lab validator still reported:
+  > "You have not completed this task."
+
+The issue was reported to Google. The course allowed progression despite the failed validation, indicating the problem was 
+likely with the lab validator rather than the SQL query.
