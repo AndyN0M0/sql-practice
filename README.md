@@ -2,17 +2,27 @@
 
 This repository documents my SQL learning journey through practical exercises and examples.
 
-## 📚 Topics
+## Repository Structure
 
-* SELECT
-* WHERE
-* ORDER BY
-* GROUP BY
-* HAVING
-* JOIN
-* Aggregate Functions
+📚 Fundamentals
+- SELECT
+- WHERE
+- LIKE
+- BETWEEN
+- ORDER BY
 
-## 🎯 Goal
+🛡️ Security Projects
+- Apply Filters to SQL Queries ✅
+
+📝 Notes
+- SQL concepts
+- Query explanations
+
+🐞 Known Issues
+- Google SQL validator bug
+
+
+🎯 Goal
 
 Develop practical SQL skills for cybersecurity investigations, log analysis, and database querying.
 
