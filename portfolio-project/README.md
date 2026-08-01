@@ -1,19 +1,31 @@
-## Investigating Failed Login Attempts After Business Hours
+# SQL Portfolio Project – Applying Filters to SQL Queries
 
-**Objective**
+## Overview
 
-Identify failed login attempts that occurred after business hours.
+This project demonstrates how SQL filtering techniques can be used to investigate security events and identify employee systems requiring updates.
 
-**Approach**
+## Project Tasks
 
-The query filters login attempts occurring after 18:00 where authentication was unsuccessful by combining conditions 
-with the `AND` operator.
+- ✅ Failed login attempts after business hours
+- ✅ Login attempts on specific dates
+- ✅ Login attempts outside Mexico
+- ✅ Marketing employees in the East building
+- ✅ Finance and Sales employees
+- ✅ Employees outside the IT department
 
-[SQL-Portfolio-Project.docx](https://github.com/user-attachments/files/30620782/SQL-Portfolio-Project.docx)
+## Documentation
 
-**Skills Demonstrated**
+The complete portfolio document, including SQL queries, explanations and approved screenshots, is available here:
 
-- SQL filtering
+📄 [Google_Cybersecurity_SQL_Portfolio.docx](https://github.com/user-attachments/files/30620870/Google_Cybersecurity_SQL_Portfolio.docx)
+
+
+## Skills Demonstrated
+
+- SQL SELECT statements
 - WHERE clause
-- AND operator
+- AND / OR / NOT
+- LIKE
+- Pattern matching
 - Security log analysis
+- Employee filtering
